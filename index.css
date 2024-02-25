@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/imgs/wall2.jpg);
+    color: #af3838;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(205, 67, 67);
+}
+
+#git {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+#git:hover {
+    transform: rotate(300deg);
+    transition: all 0.5s ease-in-out 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+  
+form { 
+    padding: 5px 8px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.butt-size {
+    padding: 1rem 1rem;
+    border: 3px dotted rgb(243, 239, 239);
+    border-radius: 9px;
+    background-color: #af3838;
+    font-family: cursive;
+    color:#b6b0be ;
+}
+
+.todo{
+    font-size: 1rem;
+    color: #8a6565;
+    border: 3px dotted rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    padding: 1rem 3rem;
+    width: 100%;
+    border-radius: 9px;
+    background-color: #943737;
+    margin-right: 5px;
+}
+
+.todo::placeholder {
+    color: #c4c4c4;
+}
+
+.list {
+    background-color: #d65757;
+    list-style-type: none;
+    color: #b6b0be;
+}
+  
+.list li {
+    border-top: 1px solid #b6b0be;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+  
+
+.task-list {
+    margin-bottom: 5px;
+    justify-content: space-evenly;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #230c0c;
+    background-color: #af3838;
+}
+
+.task-list button {
+    padding: 10px 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#list {
+    margin-top: 5px;
+}
+
+@media (max-width: 500px) {
+ * {
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    
+body{
+        background-color: #230c0c;
+        color: #af3838;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        min-height: 60vh;
+        font-family: cursive;
+    }
+
+/* .section {
+        background-color: rgb(52, 105, 152);
+    } */
+
+h1 {
+        text-align: center;
+        font-size: 4rem;
+        color: rgb(205, 67, 67);
+        font-family: cursive;
+    }
+
+#git {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+      
+#git:hover {
+          transform: rotate(300deg);
+          transition: all 0.5s ease-in-out 0s;
+        }
+
+h3 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+form { 
+    padding: 5px 8px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo{
+    font-size: 1rem;
+    color: #ac9898;
+    border: 2px solid;
+    cursor: pointer;
+    display: block;
+    padding: 1rem 2rem;
+    width: 80%;
+    border-radius: 9px;
+    font-family: cursive;
+    background-color: #af3838;
+}
+
+.todo::placeholder {
+    color: #bf7b7b;
+}
+
+.butt-size {
+    padding: 1rem 1rem;
+    border: 2px solid rgb(242, 199, 199);
+    border-radius: 9px;
+    background-color: #af3838;
+    font-family: cursive;
+}
+
+.list {
+    background-color: #b73a3a;
+    list-style-type: lower-roman;
+    color: #ac9898;
+    
+}
+  
+.list li {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+
+}
+
+.task-list {
+    margin-bottom: 5px;
+    justify-content: space-evenly;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #230c0c;
+}
+
+.task-list button {
+    padding: 10px 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+}
